@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
   "dependencies": {
     "axios": "^1.8.4",
+    "crypto-browserify": "^3.12.1",
     "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
   }
 }
